@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gclembo.numberguess.Controller">
+   <children>
+      <AnchorPane maxHeight="400.0" maxWidth="400.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Label id="textLabel" fx:id="textLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="24.799999237060547" minHeight="150.0" minWidth="350.0" prefHeight="161.0" prefWidth="350.0" text="Let's play guess the number! I will chose a number from 0 to (enter an upper bound)" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField id="textField" fx:id="textField" layoutX="75.19999694824219" layoutY="160.8000030517578" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="250.0" />
+            <Button id="enterButton" fx:id="enterButton" defaultButton="true" layoutX="137.60000610351562" layoutY="221.60000610351562" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="125.0" text="Enter" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="countLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="258.0" minHeight="38.0" minWidth="400.0" prefHeight="137.0" prefWidth="400.0" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="info1" layoutX="350.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToInstructions" prefHeight="30.0" prefWidth="30.0" text="i" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

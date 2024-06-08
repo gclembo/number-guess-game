@@ -1,0 +1,27 @@
+.root {
+    -fx-background-color: #99ccff;
+    -fx-font-family: "Lucida Console";
+}
+
+.label {
+    -fx-font-size: 24;
+}
+
+.button {
+    -fx-font-size: 20;
+    -fx-border-width: 2;
+    -fx-border-color: #000000;
+    -fx-background-insets: 0;
+}
+
+#enterButton {
+    -fx-background-color: #66ff33;
+    -fx-border-radius: 3;
+}
+
+#info1, #info2 {
+    -fx-background-color: #FF00FF;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+}
+
